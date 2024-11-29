@@ -1,0 +1,15 @@
+Personal Use License
+
+Copyright (c) 2024 Sangsongthong Chantaranothai
+
+This project is for personal use only and is not licensed for commercial use, redistribution, or modification.
+
+By using this software, you agree to the following terms:
+
+1. You may view and use this project only for personal, non-commercial purposes.
+2. You may not distribute, modify, or create derivative works based on this project without explicit written permission from the copyright holder.
+3. You may not use this project for commercial purposes or profit in any form.
+4. This project is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the author be liable for any damages arising from the use or inability to use this project.
+
+All rights reserved.
+

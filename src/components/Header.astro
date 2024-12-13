@@ -1,13 +1,52 @@
 <header>
     <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About Me</a>
-      <a href="#certifications">Certifications</a>
-      <a href="#blog">Blog</a>
-      <a href="https://www.linkedin.com/in/sangsongthong-chantaranothai-0531ab179/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://github.com/sangsongthong-hexterika?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="https://tryhackme.com/r/p/gexter5thm" target="_blank" rel="noopener noreferrer">TryHackMe</a>
-      <a href="https://www.credly.com/users/sangsongthong-chantaranothai" target="_blank" rel="noopener noreferrer">Credly</a>
+      <a href="/">
+        <img src="/src/assets/HexterikaCyberLab.png" alt="logo" class="logo" />
+      </a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="https://www.linkedin.com/in/sangsongthong-chantaranothai-0531ab179/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a href="https://github.com/sangsongthong-hexterika?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://tryhackme.com/r/p/gexter5thm" target="_blank" rel="noopener noreferrer">TryHackMe</a></li>
+        <li><a href="https://www.credly.com/users/sangsongthong-chantaranothai" target="_blank" rel="noopener noreferrer">Credly</a></li>
+      </ul>
     </nav>
   </header>
   
+<style>
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(29, 201, 16);
+    }
+
+    nav {
+      font-size: 1.8rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1rem;
+      justify-content: space-between;  /* Evenly distribute space between logo and links */
+    }
+
+    nav a {
+      text-decoration: none;  /* Removes underline */
+    }
+
+    .logo {
+      width: 9rem;
+      height: 2.5rem;
+      padding-left: 2rem;
+    }
+
+</style>

@@ -1,10 +1,52 @@
 <section class="hero">
-    <img src="/src/assets/myprofilepic.jpg" alt="My profile picture." />
-    <h2>Hello, I am Sangsongthong Chantaranothai!</h2>
-    <strong>Creativity makes thinking outside of the box possible.</strong>
-    <p>
-        Aspiring IT and Cybersecurity professional actively pursuing opportunities to stabilize and grow in these fields, with a strong foundation in IT and additional interests in software development. Beyond my professional aspirations, I am also a front-end developer, MMA fighter and martial arts enthusiast, scuba diver, and aspiring actress, showcasing a well-rounded passion for both technical and creative pursuits.
-    </p>
-    <button>Contact Me</button>
+    <div>
+        <img src="/src/assets/myprofilepic.jpg" alt="My profile picture." />
+    </div>
+    <div>
+        <h2>Hello, I am Sangsongthong Chantaranothai!</h2>
+    </div>
+    <div>
+        <h5>Realism Fuels Creativity Through Flexibility </h5>
+    </div>
+    <div>
+        <p>
+            Aspiring IT and Cybersecurity professional actively pursuing opportunities to stabilize and grow in these fields, with a strong foundation in IT and additional interests in software development. Beyond my professional aspirations, I am also a front-end developer, MMA fighter and martial arts enthusiast, scuba diver, and aspiring actress, showcasing a well-rounded passion for both technical and creative pursuits.
+        </p>
+    </div>
+    <div>
+        <button>Contact Me</button>
+    </div>
 </section>
 
+<style>
+    div {
+        display: flex;
+        justify-content: center; /* Centers the image in the container */
+        align-items: center;
+        padding: 1rem;
+    }
+
+    img {
+        width: 20rem;
+        height: 30rem;
+        border-radius: 50%; /* Makes the image circular */
+        object-fit: cover; /* Ensures the image is scaled properly to fit the circle */
+        border: 3px solid #0e0404; /* Optional, adds a border around the image */
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h5 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    button {
+        background-color: aquamarine;
+    }
+</style>

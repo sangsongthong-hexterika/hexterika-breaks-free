@@ -1,0 +1,57 @@
+<section>
+    <h1>Contact Me</h1>
+    <form action="https://formspree.io/f/xovqzgke" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="13" required></textarea>
+        <br>
+        <button type="submit">Send</button>
+      </form>
+</section>
+
+<style>
+    /* form */
+    section {
+        display: flex;
+        background-color: blanchedalmond;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    label, input, textarea, button {
+      display: block;
+      width: 30rem;
+      margin-bottom: 1rem;
+      justify-items: center;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 1rem;
+      border: none;
+      background-color:aqua;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background-color: red;
+    }
+</style>

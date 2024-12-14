@@ -103,18 +103,12 @@
             <p>Coming Soon</p>
         </section>
     </section>
-    <section>
-        <h2>Contact Me</h2>
-        <p>Coming Soon</p>
-    </section>
 </main>
 
 <!--CSS Stylings-->>
 <style>
     main {
         align-items: center;
-        padding: 2rem;
-        background-color: #9ad11c; /* Light background color for main content */
     }
     
     section {
@@ -135,27 +129,27 @@
     }
 
 /* Basic overlay styles */
-.overlay {
-    display: none;  /* Hidden by default */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .overlay {
+        display: none;  /* Hidden by default */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.zoomImage {
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-}
+    .zoomImage {
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
 
-.zoomImage.active {
-    transform: scale(2);  /* Zoom effect */
-    opacity: 0.9;         /* Fading effect */
-}
+    .zoomImage.active {
+        transform: scale(2);  /* Zoom effect */
+        opacity: 0.9;         /* Fading effect */
+    }
 </style>
 
 <!-- JavaScript -->
@@ -184,5 +178,4 @@
         });
         overlay.style.display = 'none';
     });
-
 </script>

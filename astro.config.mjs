@@ -7,7 +7,7 @@ import react from '@astrojs/react';
 export default defineConfig({
 
   site: 'https://sangsongthong-hexterika.github.io/',  // Replace with your GitHub Pages URL
-  base: '/hexterika-breaks-free/',  // Path to your GitHub repository
+  base: '/hexterika-breaks-free',  // Path to your GitHub repository
 
   vite: {
     resolve: {

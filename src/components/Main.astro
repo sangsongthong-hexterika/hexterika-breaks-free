@@ -1,12 +1,64 @@
 <main id="main">
     <section>
+        <h1>Who Am I?</h1>
+        <img src="/hexterika-breaks-free/MySelfiePic.jpg" />
+        <p>My full legal name is Sangsongthong Chantaranothai. I am a multi-passionate adventurer. I have a lot of passions in different things and I am not afraid to explore them.</p>
+    </section>
+    <section>
+        <h1>Why Hexterika? If your name isn't Hexterika, then why name this website as Hexterika?</h1>
+        <p>Hexterika is my stage-name and a brand identity that I create. There are so many personal reasons and experiences that makes me not want to use my real legal name. In order to start making meaningful changes in my life, changing the name and creating an identity that does not associate with my past is both empowering and help me mentally brave enough to make those changes true. In order to free myself from my past, I need a name that does not associate with my past self to work toward to.</p>
+        <p>I'm not going to dive deep into the personal reasons of why I don't feel empowering from keep using my legal name. However, I want to emphasize that creating this identity empowering me to design and envision what I want to do and who I want to become freely.</p>
+        <h3>I didn't come here to vent. I come here to make a different.</h3>
+        <p>The name Hexterika is a blend of words. Two names of two different fictional characters. The first character is known for looking forward toward the future and leave the past in the past. While I cannot fully able to do so, I intend to keep looking toward the future and make it a better, brighter, and happier for myself. It's why a part of the name came from this character.</p>
+        <p>The second character is known to be very organized. I want to be more organized because it will help me improve myself and keep progressing forward more efficiently.</p>
+        <p>This website, Hexterika-Breaks-Free, emphasize my strong desire to break free from my past, break free from traditional belief that people should have only a few interests and they have to be in the same directions so they can be really good at them. I want to break free from that mindset and introduce a more fulfilling lifestyle that you can have as many interests as you want and they don't have to be the same directions all the time.</p>
+        <p>Addressing the fact that having only a few interests can make you be really good at them, that is true. However, that vary from one individual to another. I can like multiple things and be only acceptable level at all of them or I can pick only a few to be good at while the rest remain acceptable or maybe I am just happy to do it even though I'm not that good and this isn't wrong; and this type of belief and lifestyle shouldn't be treated as outright terrible, but rather as a choice for each individual to choose their own life path.</p>
+    </section>
+    <section id="passions">
         <h1>Explore My Passions!</h1>
         <p>
             Discover the many sides of Hexterika-Breaks-Free, from tech and Cybersecurity to MMA, scuba diving, and beyond. Click on any topic to learn more about my journey and projects.
         </p>
-    </section>
-    <section>
-        <p>Add cards</p>
+        <section>
+            <p>Add cards</p>
+            <section id="hexterika-cyber-lab">
+                <h3>Hexterika Cyber Lab</h3>
+                <p>This is the area that I focus on my Cybersecurity learning progress, projects, and sharing cybersecurity knowledge.</p>
+                <p>I encourage you to explore further in my blog.</p>
+                <p>Here is my Cybersecurity gig on Fiverr:</p>
+                <button onclick="document.getElementById('blog').scrollIntoView({ behavior: 'smooth' })">Explore</button>
+            </section>
+            <section id="mma">
+                <h3>Hexterika MMA</h3>
+                <p>I am a Martial Arts enthusist.</p>
+                <p>Add the link to my Facebook Page and the related Instagram account</p>
+            </section>
+            <section id="scuba-diving">
+                <h3>Hexterika Scuba Diving</h3>
+                <p>I am a scuba diver.</p>
+                <p>Add the link to my Facebook Page and the related Instagram account</p>
+            </section>
+            <section id="acting">
+                <h3>Hexterika Acting</h3>
+                <p>I film myself acting on YouTube.</p>
+                <p>Add the link to my Facebook Page, the related Instagram account, and the YouTube channel.</p>
+            </section>
+            <section id="designer">
+                <h3>Hexterika Designer</h3>
+                <p>I design a traditional web app for PC and a mobile web app using Figma.</p>
+                <p>Add the link to my Facebook Page and the related Instagram account</p>
+                <p>Add the link to my design collection</p>
+            </section>
+            <section id="business">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Fiverr: Penetration Testing Gig</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Fiverr: Notion Templates Gig</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Fiverr: Figma Design Gig</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Fiverr: Social Media Advertising Gig</a></li>
+                </ul>
+            </section>
+        </section>
     </section>
 </main>
 
@@ -14,6 +66,7 @@
 <style>
     main {
         align-items: center;
+        justify-items: center;
     }
     
     section {
@@ -50,11 +103,11 @@
     }
 
     img {
-        width: 100%; /* Responsive width for images */
-        max-width: 30rem;
-        height: auto;
-        display: block;
-        margin: 0 auto;
+        width: 20rem;
+        height: 30rem;
+        border-radius: 50%; /* Makes the image circular */
+        object-fit: cover; /* Ensures the image is scaled properly to fit the circle */
+        border: 3px solid #0e0404; /* Optional, adds a border around the image */
     }
 
 /* Basic overlay styles */
@@ -80,31 +133,3 @@
         opacity: 0.9;         /* Fading effect */
     }
 </style>
-
-<!-- JavaScript -->
-<script>
-    const zoomImages = document.querySelectorAll('.zoomImage');
-    const overlay = document.querySelector('.overlay');  // Keep .overlay
-
-    zoomImages.forEach(image => {
-        image.addEventListener('click', () => {
-            if (image.style.transform === 'scale(1)') {
-                image.style.transform = 'scale(2)';
-                image.style.opacity = '0.9';
-                overlay.style.display = 'block';
-            } else {
-                image.style.transform = 'scale(1)';
-                image.style.opacity = '1';
-                overlay.style.display = 'none';
-            }
-        }); 
-    });
-
-    overlay.addEventListener('click', () => {
-        zoomImages.forEach(image => {
-            image.style.transform = 'scale(1)';
-            image.style.opacity = '1';
-        });
-        overlay.style.display = 'none';
-    });
-</script>
